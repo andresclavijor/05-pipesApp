@@ -6,7 +6,8 @@ import { NgModule } from '@angular/core';
 import { PanelModule } from 'primeng/panel';
 import { RippleModule } from 'primeng/ripple';
 import { TooltipModule } from 'primeng/tooltip';
-
+import { ToolbarModule } from 'primeng/toolbar';
+import { TableModule } from 'primeng/table';
 @NgModule({
   exports: [
     ButtonModule,
@@ -16,6 +17,8 @@ import { TooltipModule } from 'primeng/tooltip';
     PanelModule,
     RippleModule,
     TooltipModule,
+    ToolbarModule,
+    TableModule,
   ],
 })
 export class PrimeNgModule {}
